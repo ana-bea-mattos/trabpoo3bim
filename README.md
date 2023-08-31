@@ -26,7 +26,6 @@ Implementar a funcionalidade de "Inserir Despesa":
 
 Solicitar ao usuário os detalhes da despesa, como descrição, valor, data de vencimento e categoria(gastos mensais).
 
-Utilize um ArrayList para armazenar todas as despesas inseridas pelo usuário.
 
 Criar um objeto da classe Despesa com as informações fornecidas pelo usuário.
 Adicionar a despesa a uma lista de despesas armazenada em um arquivo de texto separado.
@@ -36,6 +35,8 @@ Solicitar ao usuário o número da despesa para a qual deseja  o pagamento.
 Criar um objeto da classe Pagamento com a data e valor fornecidos pelo usuário.
 Associar o pagamento à despesa correspondente na lista de despesas.
 Implementar a funcionalidade de "Listas Despesas":
+
+Utilize um ArrayList para armazenar todas as despesas inseridas pelo usuário.
 
 Solicitar ao usuário o status das despesas que deseja listar (pagas, pendentes) ou a categoria.
 Filtrar a lista de despesas de acordo com as preferências do usuário.
@@ -56,10 +57,10 @@ Implementar o uso de banco de dados em arquivos de texto:
 
 Implementar o uso de herança, interfaces e polimorfismo:
 
-Criar uma classe abstrata DespesaCategoria para representar as diferentes categorias de despesas.
+Criar uma classe abstrata DespesaCategoria que entrará na  categorias de despesas.
 Criar subclasses de DespesaCategoria para representar categorias específicas de despesas (por exemplo, Alimentação, Transporte).
 Definir interfaces para definir contratos comuns entre as classes (por exemplo, Pagos).
-Utilizar polimorfismo para permitir que as despesas se comportem como suas categorias pai.
+
 Implementar o uso de métodos e atributos estáticos:
 
 Utilize métodos e atributos estáticos para manter uma contagem global de despesas.
