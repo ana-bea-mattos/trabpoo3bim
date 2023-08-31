@@ -9,9 +9,9 @@ Classe Usuario: Representa um usuário do sistema e contém atributos como login
 
 
 
-Implementar o Menu Principal:
+Criando o Menu Principal:
 
-Criar um menu com opções numeradas para cada funcionalidade do sistema (Inserir Despesa,  Pagamento, Listar Despesas, Gerenciar Tipos de Despesa, Gerenciar Usuários e Sair).
+Menu com opções numeradas para cada funcionalidade do sistema (Inserir Despesa,  Pagamento, Listar Despesas, Gerenciar Tipos de Despesa, Gerenciar Usuários e Sair).
 Exemplo:
 " Digite a funcionalidade que deseja do sistema"
 1 - InserirDespesa
